@@ -1,5 +1,5 @@
 const firstname = 'Good Day'
-           const lastname = prompt('Your Name?')
+const lastname = prompt('Your Name?')
 alert(firstname + '  ' + lastname );
 
 //const nowyear = 2022
