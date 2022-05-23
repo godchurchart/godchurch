@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    grid-gap: 20px;
+}
+.item{
+    height: 2000px;
+    background-color: #DBDBDB;
+    width: 1140px;
+}
+.contentcontact{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    grid-gap: 20px;
+}
+.itemcontact{
+    height: 600px;
+    background-color: #DBDBDB;
+    width: 1140px;
+}
+.but{
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    height: 10px;
+    text-align: center;
+    background-color: #ADADAD;
+}
+.ll{
+    height: 200%;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    width: 1200px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 0px;
+    background-color: #aaf683;
+}
+a {
+    color: #355070;
+    text-decoration: none;
+}
+li:hover {
+    background-color: rgb(175, 218, 218);
+}
+.window {
+    margin: 10px auto;
+    width: 700px;
+    height: 1000px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #ffd166;
+    border-radius: 10px;
+    color: black;
+    background-color: #d0f4de;
+  }
+.window1 {
+    height: 1000px;
+    width: 70%;
+    text-align: center;
+    border: 3px solid #ffd166;
+    border-radius: 10px;
+    color: black;
+    background-color: #d0f4de;
+    margin: 10px 0;
+}
+.window3 {
+    height: 1000px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    background-color: #f0efeb;
+    margin: 10px 0;
+}
+.newsh1 {
+    color: #f2f2f2;
+    background: #fe654f;
+    font-size: 75px; 
+    line-height: 40px; 
+    font-weight: 300; 
+    margin: 0 5px 24px; 
+    float: center; 
+    padding: 10px; 
+    margin: 0 5px 24px;
+     font-family: ‘Libre Baskerville’, serif;
+}
+.window22 {
+    margin: 10px auto;
+    width: 1050px;
+    height: 300px;
+    padding: 15px;
+    border: 3px solid #d9ed92;
+    border-radius: 10px;
+    color: black;
+    background-color: #d9ed92;
+}
+.instagram{
+    padding: 10px 30px;
+    background: #f694c1;
+    color: #820263;
+}
+.contacth1 {
+    text-align: center;
+}
+.instagram:hover {
+    background: #e6ccbe;
+    color: #820263;
+}
+.inst{
+    font-size: 18px;
+    text-align: center;
+   width: 50px;
+   height: 50px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
